@@ -188,13 +188,12 @@
 .mainClocks{
     height: 730px;
     width: 1040px;
-    background-color: aliceblue;
+    position: relative;
 }
 
 .mainImgMan{
     height: 730px;
     width: 880px;
-    background-color: rgb(125, 91, 24);
 }
 
 .main > .row > div:nth-child(3){
@@ -211,6 +210,39 @@
     height: 100%;
 }
 
+.mainClocksPreviousSeason{
+    font-family: 'Playfair Display', sans-serif;
+    width: 376px;
+    height: 39px;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color:var(--colorFirst);
+    margin: auto;
+    margin-top: 93px;                                               
+}
+
+.mainClocksPreviousSeasonLine{
+    width: 120px;
+    height: 1px;
+    background-color: var(--colorFirst);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.mainClocksAssortment >div{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.mainClocksAssortmentLouisBlock, 
+.mainClocksAssortmentCarlVonZeytenBlock,
+.mainClocksAssortmentJordBlock{
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C ;
+}
 
 
 @media screen and (min-width: 1920px) {
@@ -298,6 +330,28 @@
         height: 501px;
         width: 605px;
     }
+    .mainClocksPreviousSeason{
+        width: 258px;
+        height: 49px;
+        font-size: 30px;
+        line-height: 48px;
+        margin-top: 50px;                                               
+    }
+
+    .mainClocksPreviousSeasonLine {
+        margin-top: 23px;
+    }
+
+    .mainClocksAssortmentLouisBlock, 
+    .mainClocksAssortmentCarlVonZeytenBlock,
+    .mainClocksAssortmentJordBlock{
+    width: 178px;
+    height: 223px;
+}
+.mainClocksAssortment >div{
+    margin-left: 40px;
+    margin-top: 50px;
+}
     
 }
 
@@ -344,6 +398,21 @@
         height: 433px;
         width: 522.5px;
     }
+
+        .mainClocksAssortmentLouisBlock, 
+    .mainClocksAssortmentCarlVonZeytenBlock,
+    .mainClocksAssortmentJordBlock{
+    width: 170px;
+    height: 210px;
+}
+
+.mainClocksAssortment >div{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.mainClocksPreviousSeason {
+    margin-top: 29px;
+}
     
 }
 @media screen and (max-width: 1200px) {
@@ -396,6 +465,18 @@
         height: 365px;
         width: 440px;
     }
+
+    .mainClocksAssortmentLouisBlock, 
+    .mainClocksAssortmentCarlVonZeytenBlock,
+    .mainClocksAssortmentJordBlock{
+    width: 170px;
+    height: 210px;
+}
+
+.mainClocksAssortment >div{
+    margin: auto;
+}
+
 }
 @media screen and (max-width: 992px) {
     .contactInforation{
@@ -619,6 +700,27 @@
     .aboutUsInformation{
         display: none;
     }
+
+    .mainClocks{
+        width: 100%;
+    }
+    
+    .mainImgMan{
+        width: 100%;
+    }
+
+    .mainClocks{
+        height: 55vw;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .mainImgMan{
+        height: 55vw;
+        width: 100%;
+        margin: auto;
+    }   
+
 
     
 }
