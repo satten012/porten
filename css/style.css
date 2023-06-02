@@ -3,7 +3,8 @@
     --colorSecond:#969696;
     --colorThird:#D0D0D0;
     --fontsMain:'PT Sans', sans-serif;
-    --fontsSecond:'Post No Bills Jaffna', sans-serif
+    --fontsSecond:'Post No Bills Jaffna', sans-serif;
+    --fontsThird: 'Playfair Display', sans-serif;
 }
 
 .wrapper{
@@ -217,7 +218,7 @@
 }
 
 .mainClocksPreviousSeason{
-    font-family: 'Playfair Display', sans-serif;
+    font-family: var(--fontsThird);
     width: 376px;
     height: 39px;
     font-size: 36px;
@@ -250,6 +251,37 @@
     background-color: #191B1C ;
 }
 
+.newCollectionTitle{
+    width: 396px;
+    height: 48px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fontsThird);
+    margin-top: 120px;
+    color:var(--colorFirst);
+    margin-bottom: 39.5px;
+}
+
+.newCollectionLine{
+    width: 120px;
+    margin: auto;
+    background-color: var(--colorFirst);
+    height: 2px;
+    margin-bottom: 81.5px;
+}
+
+.asfsa{
+    height: 405px;
+background-color: green;
+}
+
+.newCollectionBlock{
+    padding-bottom: 150px;
+}
+
 
 @media screen and (min-width: 1920px) {
     .contactInforation{
@@ -270,7 +302,14 @@
         width: 984px;
         height: 600px;
     }
+
+    .asfsa1{
+
+    }
 }
+
+
+
 @media screen and (max-width: 1920px) {
     .contactInforation{
         margin-left:257px;
@@ -811,6 +850,7 @@
         width: 100%;
         margin-top: 20px;
     }
+
 
     
 }
