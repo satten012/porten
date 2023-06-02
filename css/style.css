@@ -282,6 +282,97 @@ background-color: green;
     padding-bottom: 150px;
 }
 
+.information{
+    background-color: #0F0F0F;
+}
+
+.informationTitle{
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--colorFirst);
+    font-family: var(--fontsThird);
+    margin: auto;
+    padding-top: 63.32px;
+    margin-bottom: 36.56px;
+    margin-left: 400px;
+}
+
+.informationLine{
+    width: 120px;
+    background-color: var(--colorFirst);
+    margin: auto;
+    height: 1px;
+    margin-bottom: 56.97px ;
+}
+
+.secondwiutclass{
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.partners{
+    background-color: #0F0F0F;
+}
+
+.partnersTitle{
+    font-weight: 700;
+    font-size: 36px;
+    height: 71.73px;
+    text-transform: uppercase;
+    color:var(--colorFirst);
+    font-family: var(--fontsThird);
+    margin-bottom: 22.6px;
+}
+.partnersLine{
+    margin-bottom: 66px;
+    width: 120px;
+    height: 1px;
+    background-color: var(--colorFirst);
+}
+
+.partnersImgLogo{
+    padding-bottom: 106px;
+}
+
+.footerContent{
+    padding-top: 80px;
+}
+
+.footerAdditional{
+    margin-top: 66px;
+}
+
+.mainClocksAssortmentLouisBlock >img, 
+.mainClocksAssortmentCarlVonZeytenBlock >img,
+.mainClocksAssortmentJordBlock >img{
+    width: 215px;
+    height: 264px;
+    margin-top: 27px;
+    margin-left: 23px;
+}
+
+.mainClocksAssortmentLouisTitle,
+.mainClocksAssortmentCarlVonZeytenTitle,
+.mainClocksAssortmentJordTitle{
+    font-size: 18px;
+    color:var(--colorFirst);
+    font-family: var(--fontsThird);
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+
+.mainClocksAssortmentLouisPrice,
+.mainClocksAssortmentCarlVonZeytenPrice,
+.mainClocksAssortmentJordPrice{
+    font-weight: 700;
+font-size: 16px;
+color: #D0D0D0;
+}
+
+
+
+
 
 @media screen and (min-width: 1920px) {
     .contactInforation{
@@ -301,10 +392,6 @@ background-color: green;
     .mainCollection2018{
         width: 984px;
         height: 600px;
-    }
-
-    .asfsa1{
-
     }
 }
 
@@ -406,10 +493,33 @@ background-color: green;
     margin-top: 50px;
 }
 
+
 .mainImgSuit,
 .mainCollection2018{
     height: 501px;
     }
+
+    .mainClocksAssortmentLouisBlock >img, 
+.mainClocksAssortmentCarlVonZeytenBlock >img,
+.mainClocksAssortmentJordBlock >img{
+    width: 147px;
+    height: 181px;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+.mainClocksAssortmentLouisTitle,
+.mainClocksAssortmentCarlVonZeytenTitle,
+.mainClocksAssortmentJordTitle{
+    font-size: 16px;
+}
+
+.mainClocksAssortmentLouisPrice,
+.mainClocksAssortmentCarlVonZeytenPrice,
+.mainClocksAssortmentJordPrice{
+font-size: 14px;
+
+}
+
 
 
 }
@@ -477,6 +587,16 @@ background-color: green;
     height: 433px;
     }
 
+    .mainClocksAssortmentLouisBlock >img, 
+    .mainClocksAssortmentCarlVonZeytenBlock >img,
+    .mainClocksAssortmentJordBlock >img{
+        width: 140px;
+        height: 170px;
+        margin-top: 17px;
+        margin-left: 15px;
+    }
+    
+
 
     
 }
@@ -528,7 +648,13 @@ background-color: green;
     
     .mainImgMan{
         height: 365px;
-        width: 440px;
+        width: 425px;
+    }
+    .mainClocksAssortmentLouis{
+        padding-left: 15px;
+    }
+    .mainClocks{
+        margin-right: 15px;
     }
 
     .mainClocksAssortmentLouisBlock, 
@@ -547,10 +673,26 @@ background-color: green;
     height: 365px;
     }
 
+    .mainClocksAssortmentJordBlock{
+        border-radius: 0px 40px 40px 0px;
+    }
+
+    .mainClocksAssortmentLouisBlock{
+        border-radius: 40px 4px 0px 40px; 
+    }
+
+    .mainClocksAssortmentCarlVonZeyten{
+        padding-left: 10px;
+    }
+
 
 
 }
 @media screen and (max-width: 992px) {
+    .mainClocks{
+        margin-right: 0;
+    }
+
     .contactInforation{
         margin-left:44px;
     }
