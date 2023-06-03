@@ -203,10 +203,6 @@
     width: 880px;
 }
 
-.mainImgSuit{
-    height: 200px;
-    background-color: rgb(28, 118, 52);
-}
 .mainCollection2018{
     height: 200px;
     background-color: rgb(33, 84, 128);
@@ -370,6 +366,10 @@ font-size: 16px;
 color: #D0D0D0;
 }
 
+.mainImgSuit > img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -516,10 +516,8 @@ color: #D0D0D0;
 .mainClocksAssortmentLouisPrice,
 .mainClocksAssortmentCarlVonZeytenPrice,
 .mainClocksAssortmentJordPrice{
-font-size: 12px; /* 14 */
-
+font-size: 14px;
 }
-
 
 
 }
@@ -595,6 +593,25 @@ font-size: 12px; /* 14 */
         margin-top: 17px;
         margin-left: 15px;
     }
+
+    .mainClocksAssortmentLouisTitle,
+.mainClocksAssortmentCarlVonZeytenTitle,
+.mainClocksAssortmentJordTitle{
+    font-size: 14px;
+}
+
+.mainClocksAssortmentLouisPrice,
+.mainClocksAssortmentCarlVonZeytenPrice,
+.mainClocksAssortmentJordPrice{
+font-size: 12px;
+}
+.mainClocksPreviousSeason {
+    margin-top: 15px;
+    font-size: 26px;
+}
+.mainClocksPreviousSeasonLine{
+    margin-top: 12px;
+}
     
 
 
@@ -684,7 +701,31 @@ font-size: 12px; /* 14 */
     .mainClocksAssortmentCarlVonZeyten{
         padding-left: 10px;
     }
+    .mainClocksAssortmentLouisTitle,
+    .mainClocksAssortmentCarlVonZeytenTitle,
+    .mainClocksAssortmentJordTitle{
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .mainClocksAssortmentLouisPrice,
+.mainClocksAssortmentCarlVonZeytenPrice,
+.mainClocksAssortmentJordPrice{
+font-size: 10px;
+}
 
+.mainClocksAssortmentLouisPrice{
+    padding-left: 33px;
+}
+
+.mainClocksAssortmentCarlVonZeytenPrice{
+    padding-left: 40px;
+}
+
+.mainClocksAssortmentJordPrice{
+    padding-left: 51px;
+}
 
 
 }
@@ -768,6 +809,72 @@ font-size: 12px; /* 14 */
     .mainImgMan>img{
         border-radius: 50px;
     }
+
+    .mainClocksAssortmentLouisBlock{
+        margin-top: 50px;
+    }
+
+    .mainClocksAssortmentLouisBlock,
+    .mainClocksAssortmentCarlVonZeytenBlock,
+    .mainClocksAssortmentJordBlock{
+        border-radius: 40px;
+        width: 191px;
+        height: 220px;
+    }
+    .mainClocksAssortmentLouisPrice,
+    .mainClocksAssortmentCarlVonZeytenPrice,
+    .mainClocksAssortmentJordPrice{
+    position: absolute;
+    font-size: 14px;
+
+    }
+
+    .mainClocksAssortmentLouisTitle,
+    .mainClocksAssortmentCarlVonZeytenTitle,
+    .mainClocksAssortmentJordTitle{
+        position: absolute;
+        font-size: 16px;
+    }
+
+    .mainClocksAssortmentCarlVonZeytenBlock,
+    .mainClocksAssortmentJordBlock{
+        margin-top: 50px;
+    }
+
+    .mainClocksAssortmentLouisTitle{
+        top: 115px;
+        right: 50px;
+    }
+    .mainClocksAssortmentLouisPrice{
+        top: 155px;
+        right:96px;
+    }
+    .mainClocksAssortmentCarlVonZeytenTitle{
+        top: 380px;
+        right: 60px;
+    }
+    .mainClocksAssortmentCarlVonZeytenPrice{
+        right:96px;
+        top: 420px;
+    }
+    .mainClocksAssortmentJordBlock{
+        margin-left: 10px;
+    }
+
+    .mainClocksAssortmentJordTitle{
+        right: 79px;
+        top: 656px;
+    }
+
+    .mainClocksAssortmentJordPrice{
+        top: 696px;
+        right: 96px;
+    }
+
+    .mainImgSuit>img{
+        border-radius: 50px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -921,6 +1028,38 @@ font-size: 12px; /* 14 */
         width: 247.5px;
         top: 448px;
     }
+    .mainClocksAssortmentLouisBlock >img, .mainClocksAssortmentCarlVonZeytenBlock >img, .mainClocksAssortmentJordBlock >img {
+        width: 113px;
+        height: 119px;
+        margin-top: 26px;
+        margin-left: 28px;
+
+    }
+
+    .mainClocksAssortmentLouisPrice,
+    .mainClocksAssortmentCarlVonZeytenPrice,
+    .mainClocksAssortmentJordPrice{
+        display: none;
+
+    }
+
+    .mainClocksAssortmentLouisTitle,
+    .mainClocksAssortmentCarlVonZeytenTitle,
+    .mainClocksAssortmentJordTitle{
+        display: none;
+    }
+    .mainClocksAssortmentLouisBlock >img, .mainClocksAssortmentCarlVonZeytenBlock >img, .mainClocksAssortmentJordBlock >img {
+        width: 131px;
+        height: 131px;
+        margin-top: 26px;
+        margin-left: 51px;
+    }
+    .mainClocksAssortmentLouisBlock, .mainClocksAssortmentCarlVonZeytenBlock, .mainClocksAssortmentJordBlock {
+        width: 233px;
+        height: 175px;
+        margin-top: 10px;
+        background-color: transparent;
+    }
 }
     
 
@@ -987,12 +1126,44 @@ font-size: 12px; /* 14 */
         width: 50px;
     }
     .mainImgSuit, .mainCollection2018 {
-        position: sticky;
+        top: 0;
+        position: inherit;
         height: 55vw;
         width: 100%;
         margin-top: 20px;
     }
 
+    .informationTitle{
+
+        display: none;
+    }
+
+    .mainClocksAssortmentLouis,
+    .mainClocksAssortmentCarlVonZeyten,
+    .mainClocksAssortmentJord{
+        padding: 0;
+        margin: 0;
+        width: 33%;
+    }
+
+    .mainClocksAssortmentLouisBlock,
+    .mainClocksAssortmentJordBlock,
+    .mainClocksAssortmentCarlVonZeytenBlock{
+        width: 100%;
+        height: 72%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .mainClocksAssortmentLouisBlock >img, .mainClocksAssortmentCarlVonZeytenBlock >img, .mainClocksAssortmentJordBlock >img {
+        margin: 0;
+        padding: 0;
+        width: 33vw;
+        height: 30vw;
+        padding-left: 30px;
+        margin-top: 10px;
+    }
 
     
 }
