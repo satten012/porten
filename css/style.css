@@ -282,10 +282,11 @@ background-color: green;
     text-transform: uppercase;
     color: var(--colorFirst);
     font-family: var(--fontsThird);
+    width: 710px;
+    text-align: center;
     margin: auto;
     padding-top: 63.32px;
     margin-bottom: 36.56px;
-    margin-left: 400px;
 }
 
 .informationLine{
@@ -296,9 +297,28 @@ background-color: green;
     margin-bottom: 56.97px ;
 }
 
+.informationBlockImg{
+    width: 51.52%;
+    height: 437px;
+    background-color: #969696;
+}
+.informationBlockImg>img{
+    width: 100%;
+    height: 100%;
+}
+
+.informationBlockPart1,
+.informationBlockPart2,
+.informationBlockPart3{
+    height: 437px;
+    width: 48.48%;
+    background-color: aqua;
+    margin-bottom: 35px;
+}
+
 .secondwiutclass{
-    height: 150px;
-    background-color: #ffffff;
+    height: 200px;
+    background-color: #FFFFFF;
 }
 
 .partners{
@@ -427,7 +447,6 @@ margin-bottom: 64px;
 .newCollectionBlockGucci,
 .newCollectionBlockCollection{
     height: 405px;
-    background-color: #969696;
     width: 260px;
 }
 
@@ -507,6 +526,21 @@ margin-bottom: 64px;
 .carousel{
     display: none;
 }
+
+.newCollectionBlock > div >  div > div:nth-child(2){
+    color: var(--colorFirst);
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: var(--fontsThird);
+    margin-bottom: 10px;
+}
+
+.newCollectionBlock > div >  div > div:nth-child(3){
+    color: #D0D0D0;
+    font-family: var(--fontsThird);
+    font-size: 16px;
+}
+
 
 
 @media screen and (min-width: 1920px) {
@@ -680,6 +714,14 @@ margin-bottom: 24px;
     font-size: 16px;
 }
 
+.informationTitle{
+    font-size: 34px;
+}
+
+.informationBlockImg{
+    height: 385px;
+}
+
 
 }
 
@@ -797,11 +839,16 @@ margin-bottom: 24px;
     font-size: 14px;
 }
     
-
+.informationBlockImg{
+    height: 330px;
+}
 
     
 }
 @media screen and (max-width: 1200px) {
+    .informationTitle{
+        font-size: 30px;
+    }
     .contactInforation{
         margin-left:96px;
     }
@@ -950,6 +997,8 @@ font-size: 10px;
     margin-top: 45px;
     margin-left: 7px;
 }
+
+
 
 }
 @media screen and (max-width: 992px) {
@@ -1169,6 +1218,19 @@ font-size: 10px;
         line-height: 34px;
         font-size: 12px;
     }
+    .newCollectionBlockLouis, 
+.newCollectionBlockGucci,
+.newCollectionBlockUboat,
+.newCollectionBlockCollection{
+    margin-top: 54px;
+}
+.newCollectionTitle{
+    margin-top: 20px;
+}
+
+.informationTitle{
+    font-size: 26px;
+}
 
 }
 
@@ -1401,6 +1463,14 @@ font-size: 10px;
         margin-left: 27px;
     }
     
+    .informationTitle{
+        font-size: 24px;
+        width: 456px;
+    }
+
+    .newCollectionBlock {
+        padding-bottom: 75px;
+    }
 
 
     
@@ -1408,6 +1478,12 @@ font-size: 10px;
     
 
 @media screen and (max-width: 576px) {
+    .newCollectionTitle{
+
+        width: 100%;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
     .contact{
         height: 92px;
     }
@@ -1477,10 +1553,7 @@ font-size: 10px;
         margin-top: 20px;
     }
 
-    .informationTitle{
 
-        display: none;
-    }
 
     .mainClocksAssortmentLouis,
     .mainClocksAssortmentCarlVonZeyten,
@@ -1557,7 +1630,12 @@ font-size: 10px;
         margin-top: 0px;
     font-size: 26px;
 }
-    }
+
+.informationTitle{
+    width: 100%;
+}
+
+    
 
     
 }
