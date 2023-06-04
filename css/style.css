@@ -124,8 +124,7 @@
 
 .acitve::after{
     transform: rotate(-45deg);
-    top:10px;
-    
+    top:10px;    
 }
 
 .acitve > span {
@@ -203,7 +202,6 @@
     width: 880px;
 }
 
-
 .mainImgMan>img{
     width: 100%;
     height: 100%;
@@ -264,13 +262,6 @@
     height: 2px;
     margin-bottom: 81.5px;
 }
-
-.asfsa{
-
-background-color: green;
-}
-
-
 
 .information{
     background-color: #0F0F0F;
@@ -352,7 +343,21 @@ background-color: green;
 }
 
 .footerAdditional{
-    margin-top: 66px;
+    height: 50px;
+    width: 61%;
+    margin: auto;
+}
+.footerAdditional > div{
+    height: 17px;
+    color: #D0D0D0;
+    font-size: 12px;
+    font-family: var(--fontsMain);
+}
+
+.footerAdditional >div:nth-child(2){
+    width: 98px;
+    border-bottom: 1px solid #969696;
+    
 }
 
 .mainClocksAssortmentLouisBlock >img, 
@@ -378,8 +383,8 @@ background-color: green;
 .mainClocksAssortmentCarlVonZeytenPrice,
 .mainClocksAssortmentJordPrice{
     font-weight: 700;
-font-size: 16px;
-color: #D0D0D0;
+    font-size: 16px;
+    color: #D0D0D0;
 }
 
 .mainImgSuit > img{
@@ -410,13 +415,13 @@ color: #D0D0D0;
 
 .mainCollection2018Description{
     width: 628px;
-height: 172px;
-font-size: 14px;
-font-family: var(--fontsMain);
-color:var(--colorFirst);
-margin: auto;
-text-align: center;
-margin-bottom: 64px;
+    height: 172px;
+    font-size: 14px;
+    font-family: var(--fontsMain);
+    color:var(--colorFirst);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 64px;
 }
 
 .mainCollection2018Button{
@@ -479,7 +484,6 @@ margin-bottom: 64px;
     position: relative;
 }
 
-
 .newCollectionBlockCollectionImgBaclground> div{
     width: 186px;
     height: 48px;
@@ -508,6 +512,7 @@ margin-bottom: 64px;
     margin-top: 27px;
     margin-left: 23px;
 }
+
 .newCollectionBlockCollection>div:nth-child(2){
     width: 186px;
     height: 48px;
@@ -632,8 +637,8 @@ margin-bottom: 64px;
 
 .partnersImgLogo>div:nth-child(1){
     width: 369px;
-height: 152.44px;
-margin-top: 13px;
+    height: 152.44px;
+    margin-top: 13px;
 }
 
 .partnersImgLogo>div:nth-child(2){
@@ -657,21 +662,116 @@ margin-top: 13px;
     height: 100%;
 }
 
-
-
 .partnersImgLogo>div:nth-child(1),
 .partnersImgLogo>div:nth-child(2),
 .partnersImgLogo>div:nth-child(3){
     margin-right: 30px;
 }
 
-
 .footerContent{
     height: 450px;
     width: 100%;
     background-position: center;
-
     background-image:url(../img/background.png)
+}
+
+.footer{
+    color:wheat
+}
+
+.g-3{
+    position: relative;
+}
+
+.form-control{
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.4);
+    color: white;
+    border:1px solid transparent;
+    width: 210px;
+}
+.btn{
+    width: 137px;
+    height: 41px;
+    position: absolute;
+    background-color: #0F0F0F;
+    font-family:var(--fontsMain);
+    color:var(--colorFirst);
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: 0px solid transparent;
+    left: 211px;
+    top: 16px;
+}
+
+.footerContent > div{
+    width: 1170px;
+    margin: auto;
+}
+
+.footerContent > div > div > div:nth-child(1){
+    font-weight: 400;
+    font-size: 24px;
+    font-family: var(--fontsThird);
+    color:var(--colorFirst);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.footerContent > div > div:nth-child(1) > div:nth-child(2){
+    color:var(--colorFirst);
+    font-family: var(--fontsMain);
+    width: 350px;
+    height: 231px;
+    font-size: 14px;
+}
+
+.categoriesStuff > div{
+    background-color: #0F0F0F;
+    color:#D0D0D0;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    font-family: var(--fontsMain);
+}
+
+.categoriesStuff > div:nth-child(1){
+    width: 105px;
+    margin-right: 6px;
+}
+
+.categoriesStuff > div:nth-child(2){
+    width: 91px;
+    margin-right: 6px;
+}
+
+.categoriesStuff > div:nth-child(3){
+    width: 83px;
+
+}
+
+.categoriesStuff > div:nth-child(4){
+    width: 143px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.categoriesStuff > div:nth-child(5){
+    width: 131px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.categoriesStuff > div:nth-child(6){
+    width: 96px;
+    margin-top: 20px;
+}
+
+.distributionDescription{
+    font-size: 14px;
+    font-family: var(--fontsMain);
+    color:var(--colorFirst);
+    margin-bottom: 26px;
 }
 
 
@@ -697,10 +797,7 @@ margin-top: 13px;
 }
 
 
-
 @media screen and (max-width: 1920px) {
-
-
     .contactInforation{
         margin-left:257px;
     }
@@ -723,7 +820,6 @@ margin-top: 13px;
         width: 234px;
         top:227px;
     }
-
     .aboutUsInformation>div:nth-child(1){
         font-size: 46px;
         width: 100%;
@@ -732,14 +828,12 @@ margin-top: 13px;
         margin-left: 0px;
         text-align: center;
     }
-
     .aboutUsInformation>div:nth-child(2){
         width: 179px;
         border: 1px solid white;
         margin-left: 70px;
         margin-top: -3px;
     }
-
     .aboutUsInformation>div:nth-child(3){
         font-family: var(--fontsMain);
         color: var(--colorFirst);
@@ -767,8 +861,7 @@ margin-top: 13px;
     .mainClocks{
         height: 501px;
         width: 715px;
-    }
-    
+    } 
     .mainImgMan{
         height: 501px;
         width: 605px;
@@ -780,124 +873,106 @@ margin-top: 13px;
         line-height: 48px;
         margin-top: 50px;                                               
     }
-
     .mainClocksPreviousSeasonLine {
         margin-top: 23px;
     }
-
     .mainClocksAssortmentLouisBlock, 
     .mainClocksAssortmentCarlVonZeytenBlock,
     .mainClocksAssortmentJordBlock{
-    width: 178px;
-    height: 223px;
-}
-.mainClocksAssortment >div{
-    margin-left: 40px;
-    margin-top: 50px;
-}
-
-
-.mainImgSuit,
-.mainCollection2018{
-    height: 501px;
+        width: 178px;
+        height: 223px;
     }
-
+    .mainClocksAssortment >div{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .mainImgSuit,
+    .mainCollection2018{
+        height: 501px;
+    }
     .mainClocksAssortmentLouisBlock >img, 
-.mainClocksAssortmentCarlVonZeytenBlock >img,
-.mainClocksAssortmentJordBlock >img{
-    width: 147px;
-    height: 181px;
-    margin-top: 18px;
-    margin-left: 16px;
-}
-.mainClocksAssortmentLouisTitle,
-.mainClocksAssortmentCarlVonZeytenTitle,
-.mainClocksAssortmentJordTitle{
-    font-size: 16px;
-}
-
-.mainClocksAssortmentLouisPrice,
-.mainClocksAssortmentCarlVonZeytenPrice,
-.mainClocksAssortmentJordPrice{
-font-size: 14px;
-}
-
-.mainCollection2018Title{
-    font-size: 34px;
-    margin-top: 65px;
-    margin-bottom: 30px;
-}
-
-.mainCollection2018Line{
-    width: 100px;
-}
-
-.mainCollection2018Description{
+    .mainClocksAssortmentCarlVonZeytenBlock >img,
+    .mainClocksAssortmentJordBlock >img{
+        width: 147px;
+        height: 181px;
+        margin-top: 18px;
+        margin-left: 16px;
+    }
+    .mainClocksAssortmentLouisTitle,
+    .mainClocksAssortmentCarlVonZeytenTitle,
+    .mainClocksAssortmentJordTitle{
+        font-size: 16px;
+    }
+    .mainClocksAssortmentLouisPrice,
+    .mainClocksAssortmentCarlVonZeytenPrice,
+    .mainClocksAssortmentJordPrice{
+        font-size: 14px;
+    }
+    .mainCollection2018Title{
+        font-size: 34px;
+        margin-top: 65px;
+        margin-bottom: 30px;
+    }
+    .mainCollection2018Line{
+        width: 100px;
+    }
+    .mainCollection2018Description{
     width: 553px;
-height: 172px;
-font-size: 12px;
-text-align: center;
-margin-bottom: 24px;
+    height: 172px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 24px;
+    }
+    .mainCollection2018Button{
+        width: 278px;
+        height: 47px;
+        font-size: 16px;
+    }
+    .informationTitle{
+        font-size: 34px;
+    }
+    .informationBlockImg,
+    .informationBlockPart1,
+    .informationBlockPart2,
+    .informationBlockPart3{
+        height: 385px;
+    }
+    .informationBlockPart1 >div:nth-child(1), 
+    .informationBlockPart2 >div:nth-child(1), 
+    .informationBlockPart3 >div:nth-child(1){
+        margin-top: 10px;
+    }
+    .informationBlockPart1 >div:nth-child(2){
+        width: 443px;
+    }
+    .informationBlockPart1 >div:nth-child(4), 
+    .informationBlockPart2 >div:nth-child(4), 
+    .informationBlockPart3 >div:nth-child(4) {
+        right: 46px;
+    }
+    .informationBlockPart2 >div:nth-child(2){
+        width: 445px;
+    }
+    .informationBlockPart3 >div:nth-child(2) {
+        width: 422px;
+    }
+    .informationBlockPart3 >div:nth-child(4) {
+        top: 292px;
+    }
+    .partnersImgLogo {
+        width: 100%;
+    }
+    .partnersImgLogo >div:nth-child(1),
+    .partnersImgLogo >div:nth-child(2),
+    .partnersImgLogo >div:nth-child(3),
+    .partnersImgLogo >div:nth-child(4) {
+        width: 23%;
+        height: 170px;
+    }
+    .footerAdditional{
+        width: 88%;
+    }
 }
-
-.mainCollection2018Button{
-    width: 278px;
-    height: 47px;
-    font-size: 16px;
-}
-
-.informationTitle{
-    font-size: 34px;
-}
-
-.informationBlockImg,
-.informationBlockPart1,
-.informationBlockPart2,
-.informationBlockPart3{
-    height: 385px;
-}
-
-
-.informationBlockPart1 >div:nth-child(1), .informationBlockPart2 >div:nth-child(1), .informationBlockPart3 >div:nth-child(1) {
-    margin-top: 10px;
-}
-
-.informationBlockPart1 >div:nth-child(2) {
-    width: 443px;
-}
-
-.informationBlockPart1 >div:nth-child(4), 
-.informationBlockPart2 >div:nth-child(4), 
-.informationBlockPart3 >div:nth-child(4) {
-    right: 46px;
-}
-
-.informationBlockPart2 >div:nth-child(2) {
-    width: 445px;
-}
-
-.informationBlockPart3 >div:nth-child(2) {
-    width: 422px;
-}
-
-.informationBlockPart3 >div:nth-child(4) {
-    top: 292px;
-}
-
-.partnersImgLogo {
-    width: 100%;
-}
-
-.partnersImgLogo >div:nth-child(1),
-.partnersImgLogo >div:nth-child(2),
-.partnersImgLogo >div:nth-child(3),
-.partnersImgLogo >div:nth-child(4) {
-    width: 23%;
-    height: 170px;
-}
-
-}
-
 
 
 @media screen and (max-width: 1400px) {
@@ -918,7 +993,6 @@ margin-bottom: 24px;
         width: 200px;
         top:204px;
     }
-
     .aboutUsInformation>div:nth-child(1){
         font-size: 40px;
         height: 50px;
@@ -935,32 +1009,28 @@ margin-bottom: 24px;
     .mainClocks{
         height: 433px;
         width: 617.5px;
-    }
-    
+    } 
     .mainImgMan{
         height: 433px;
         width: 522.5px;
     }
-
-        .mainClocksAssortmentLouisBlock, 
+    .mainClocksAssortmentLouisBlock, 
     .mainClocksAssortmentCarlVonZeytenBlock,
     .mainClocksAssortmentJordBlock{
-    width: 170px;
-    height: 210px;
-}
-
-.mainClocksAssortment >div{
-    margin-left: 20px;
-    margin-top: 50px;
-}
-.mainClocksPreviousSeason {
-    margin-top: 29px;
-}
-.mainImgSuit,
-.mainCollection2018{
-    height: 433px;
+        width: 170px;
+        height: 210px;
     }
-
+    .mainClocksAssortment >div{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .mainClocksPreviousSeason {
+        margin-top: 29px;
+    }
+    .mainImgSuit,
+    .mainCollection2018{
+        height: 433px;
+    }
     .mainClocksAssortmentLouisBlock >img, 
     .mainClocksAssortmentCarlVonZeytenBlock >img,
     .mainClocksAssortmentJordBlock >img{
@@ -969,83 +1039,77 @@ margin-bottom: 24px;
         margin-top: 17px;
         margin-left: 15px;
     }
-
     .mainClocksAssortmentLouisTitle,
-.mainClocksAssortmentCarlVonZeytenTitle,
-.mainClocksAssortmentJordTitle{
-    font-size: 14px;
+    .mainClocksAssortmentCarlVonZeytenTitle,
+    .mainClocksAssortmentJordTitle{
+        font-size: 14px;
+    }
+    .mainClocksAssortmentLouisPrice,
+    .mainClocksAssortmentCarlVonZeytenPrice,
+    .mainClocksAssortmentJordPrice{
+    font-size: 12px;
+    }
+    .mainClocksPreviousSeason {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+    .mainClocksPreviousSeasonLine{
+        margin-top: 12px;
+    }
+    .mainCollection2018Title{
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .mainCollection2018Description{
+        width: 488px;
+        height: 184px;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .mainCollection2018Button{
+        width: 254px;
+        height: 47px;
+        font-size: 14px;
+    }  
+    .informationBlockImg,
+    .informationBlockPart1,
+    .informationBlockPart2,
+    .informationBlockPart3{
+        height: 340px;
+    }
+    .informationBlockPart1 >div:nth-child(1), 
+    .informationBlockPart2 >div:nth-child(1), 
+    .informationBlockPart3 >div:nth-child(1),
+    .informationBlockPart1 >div:nth-child(3), 
+    .informationBlockPart2 >div:nth-child(3), 
+    .informationBlockPart3 >div:nth-child(3),
+    .informationBlockPart1 >div:nth-child(2), 
+    .informationBlockPart2 >div:nth-child(2), 
+    .informationBlockPart3 >div:nth-child(2) {
+        margin-left: 60px;
+    }
+    .partnersImgLogo{
+        width: 96%;
+    }
+    .partnersImgLogo >div:nth-child(1), 
+    .partnersImgLogo >div:nth-child(2), 
+    .partnersImgLogo >div:nth-child(3), 
+    .partnersImgLogo >div:nth-child(4) {
+        width: 22%;
+        height: 170px;
+    }
+    .distributionDescription{
+        width: 360px;
+    }
+    .aboutCompanyTitle,.aboutCompanyDescription{
+        padding-left: 15px;
+    }  
 }
 
-.mainClocksAssortmentLouisPrice,
-.mainClocksAssortmentCarlVonZeytenPrice,
-.mainClocksAssortmentJordPrice{
-font-size: 12px;
-}
-.mainClocksPreviousSeason {
-    margin-top: 15px;
-    font-size: 26px;
-}
-.mainClocksPreviousSeasonLine{
-    margin-top: 12px;
-}
 
-
-
-.mainCollection2018Title{
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-
-.mainCollection2018Description{
-    width: 488px;
-height: 184px;
-font-size: 12px;
-text-align: center;
-margin-bottom: 24px;
-}
-
-.mainCollection2018Button{
-    width: 254px;
-    height: 47px;
-    font-size: 14px;
-}
-    
-.informationBlockImg,
-.informationBlockPart1,
-.informationBlockPart2,
-.informationBlockPart3{
-    height: 340px;
-}
-
-.informationBlockPart1 >div:nth-child(1), 
-.informationBlockPart2 >div:nth-child(1), 
-.informationBlockPart3 >div:nth-child(1),
-.informationBlockPart1 >div:nth-child(3), 
-.informationBlockPart2 >div:nth-child(3), 
-.informationBlockPart3 >div:nth-child(3),
-.informationBlockPart1 >div:nth-child(2), 
-.informationBlockPart2 >div:nth-child(2), 
-.informationBlockPart3 >div:nth-child(2) {
-    margin-left: 60px;
-}
-
-.partnersImgLogo{
-    width: 96%;
-}
-.partnersImgLogo >div:nth-child(1), 
-.partnersImgLogo >div:nth-child(2), 
-.partnersImgLogo >div:nth-child(3), 
-.partnersImgLogo >div:nth-child(4) {
-    width: 22%;
-    height: 170px;
-}
-
-   
-}
 @media screen and (max-width: 1200px) {
-
     .informationTitle{
         font-size: 30px;
     }
@@ -1069,8 +1133,7 @@ margin-bottom: 24px;
         height: 165px;
         width: 165px;
         top:197px;
-    }
-    
+    }   
     .aboutUsInformation>div:nth-child(1){
         font-size: 32px;
         height: 42px;
@@ -1092,8 +1155,7 @@ margin-bottom: 24px;
     .mainClocks{
         height: 365px;
         width: 520px;
-    }
-    
+    }    
     .mainImgMan{
         height: 365px;
         width: 425px;
@@ -1104,31 +1166,29 @@ margin-bottom: 24px;
     .mainClocks{
         margin-right: 15px;
     }
-
+    .informationBlock{
+        padding-bottom: 3px;
+    }
     .mainClocksAssortmentLouisBlock, 
     .mainClocksAssortmentCarlVonZeytenBlock,
     .mainClocksAssortmentJordBlock{
         width: 171px;
         height: 204px;
         margin-top: 10px;
-}
-
-.mainClocksAssortment >div{
-    margin: auto;
-}
-.mainImgSuit,
-.mainCollection2018{
-    height: 365px;
     }
-
+    .mainClocksAssortment >div{
+        margin: auto;
+    }
+    .mainImgSuit,
+    .mainCollection2018{
+        height: 365px;
+    }
     .mainClocksAssortmentJordBlock{
         border-radius: 0px 40px 40px 0px;
     }
-
     .mainClocksAssortmentLouisBlock{
         border-radius: 40px 4px 0px 40px; 
     }
-
     .mainClocksAssortmentCarlVonZeyten{
         padding-left: 10px;
     }
@@ -1141,118 +1201,141 @@ margin-bottom: 24px;
         text-align: center;
     }
     .mainClocksAssortmentLouisPrice,
-.mainClocksAssortmentCarlVonZeytenPrice,
-.mainClocksAssortmentJordPrice{
-font-size: 10px;
-}
-
-.mainClocksAssortmentLouisPrice{
-    padding-left: 33px;
-}
-
-.mainClocksAssortmentCarlVonZeytenPrice{
-    padding-left: 40px;
-}
-
-.mainClocksAssortmentJordPrice{
-    padding-left: 51px;
-}
-.mainCollection2018Title{
-    font-size: 28px;
-    margin-top: 29px;
-    margin-bottom: 12px;
-}
-
-.mainCollection2018Line{
-    margin-bottom: 28px;
-}
-
-.mainCollection2018Description{
-    width: 436px;
-    height: 161px;
+    .mainClocksAssortmentCarlVonZeytenPrice,
+    .mainClocksAssortmentJordPrice{
     font-size: 10px;
-    text-align: center;
-    margin-bottom: 18px;
+    }
+    .mainClocksAssortmentLouisPrice{
+        padding-left: 33px;
+    }
+    .mainClocksAssortmentCarlVonZeytenPrice{
+        padding-left: 40px;
+    }
+    .mainClocksAssortmentJordPrice{
+        padding-left: 51px;
+    }
+    .mainCollection2018Title{
+        font-size: 28px;
+        margin-top: 29px;
+        margin-bottom: 12px;
+    }
+    .mainCollection2018Line{
+        margin-bottom: 28px;
+    }
+    .mainCollection2018Description{
+        width: 436px;
+        height: 161px;
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .mainCollection2018Button{
+        width: 240px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 42px;
+    }
+    .newCollectionBlock{
+        width: 970px;
+    }
+    .newCollectionBlockCarlVonZeyten, 
+    .newCollectionBlockJordAr, 
+    .newCollectionBlockEmporia, 
+    .newCollectionBlockRolex, 
+    .newCollectionBlockLouis, 
+    .newCollectionBlockUboat, 
+    .newCollectionBlockGucci, 
+    .newCollectionBlockCollection{
+        height: 405px;
+        width: 215px;
+    }
+    .newCollectionBlock >div > div > div >img {
+        width: 199px;
+        height: 244px;
+        margin-top: 45px;
+        margin-left: 7px;
+    }
+    .informationBlockImg,
+    .informationBlockPart1,
+    .informationBlockPart2,
+    .informationBlockPart3{
+        height: 275px;
+    }
+    .informationBlockPart1 >div:nth-child(2) {
+        width: 390px;
+        font-size: 12px;
+    }
+    .informationBlockPart1 >div:nth-child(3), 
+    .informationBlockPart2 >div:nth-child(3), 
+    .informationBlockPart3 >div:nth-child(3) {
+        width: 114px;
+        height: 38px;
+        font-size: 14px;
+        line-height: 38px;
+
+    }
+    .informationBlockPart1 >div:nth-child(4), 
+    .informationBlockPart2 >div:nth-child(4), 
+    .informationBlockPart3 >div:nth-child(4) {
+        font-size: 16px;
+    }
+    .informationBlockPart1 >div:nth-child(4) {
+        top: 214px;
+    }
+    .informationBlockPart2 >div:nth-child(2) {
+        width: 369px;
+        font-size: 12px;
+    }
+    .informationBlockPart3 >div:nth-child(2) {
+        width: 358px;
+        font-size: 12px;
+    }
+    .informationBlockPart2 >div:nth-child(4){
+        top: 214px;
+    }
+    .partnersImgLogo >div:nth-child(1), 
+    .partnersImgLogo >div:nth-child(2), 
+    .partnersImgLogo >div:nth-child(3), 
+    .partnersImgLogo >div:nth-child(4) {
+        height: 130px;
+    }
+    .footerContent > div{
+        width:  960px;
+    }
+    .footerContent > div > div > div:nth-child(1) {
+        font-size: 22px;
+    }
+    .aboutCompanyDescription{
+        width: 312px;
+        font-size: 12px;
+    }
+    .categories{
+        padding-left: 46px;
+    }
+    .categoriesStuff > div:nth-child(3),
+    .categoriesStuff > div:nth-child(5)  {
+        margin-right: 6px;
+        margin-top: 20px;
+    }
+    .distributionDescription{
+        width: 296px;
+    }
+    .btn {
+        left: 179px;
+    }
+    .form-control{
+        width: 180px;
+    }
+    .footerAdditional{
+        width: 95%;
+    }
 }
 
-.mainCollection2018Button{
-    width: 240px;
-    height: 42px;
-    font-size: 14px;
-    line-height: 42px;
-}
 
-.newCollectionBlock{
-    width: 970px;
-}
-.newCollectionBlockCarlVonZeyten, .newCollectionBlockJordAr, .newCollectionBlockEmporia, .newCollectionBlockRolex, .newCollectionBlockLouis, .newCollectionBlockUboat, .newCollectionBlockGucci, .newCollectionBlockCollection {
-    height: 405px;
-    width: 215px;
-
-}
-
-.newCollectionBlock >div > div > div >img {
-    width: 199px;
-    height: 244px;
-    margin-top: 45px;
-    margin-left: 7px;
-}
-
-.informationBlockImg,
-.informationBlockPart1,
-.informationBlockPart2,
-.informationBlockPart3{
-    height: 275px;
-}
-.informationBlockPart1 >div:nth-child(2) {
-    width: 390px;
-    font-size: 12px;
-}
-
-.informationBlockPart1 >div:nth-child(3), .informationBlockPart2 >div:nth-child(3), .informationBlockPart3 >div:nth-child(3) {
-    width: 114px;
-    height: 38px;
-    font-size: 14px;
-    line-height: 38px;
-
-}
-
-.informationBlockPart1 >div:nth-child(4), .informationBlockPart2 >div:nth-child(4), .informationBlockPart3 >div:nth-child(4) {
-    font-size: 16px;
-}
-
-.informationBlockPart1 >div:nth-child(4) {
-    top: 214px;
-}
-
-.informationBlockPart2 >div:nth-child(2) {
-    width: 369px;
-    font-size: 12px;
-}
-
-.informationBlockPart3 >div:nth-child(2) {
-    width: 358px;
-    font-size: 12px;
-}
-
-.informationBlockPart2 >div:nth-child(4){
-    top: 214px;
-}
-
-.partnersImgLogo >div:nth-child(1), 
-.partnersImgLogo >div:nth-child(2), 
-.partnersImgLogo >div:nth-child(3), 
-.partnersImgLogo >div:nth-child(4) {
-    height: 130px;
-}
-
-
-}
 @media screen and (max-width: 992px) {
     .mainClocks{
         margin-right: 0;
     }
-
     .contactInforation{
         margin-left:44px;
     }
@@ -1280,7 +1363,6 @@ font-size: 10px;
         height: 32px;
         margin-top: 35px;
     }
-
     .aboutUsInformation>div:nth-child(2){
         width: 76px;
         margin-left: 23px;
@@ -1298,8 +1380,7 @@ font-size: 10px;
     .mainClocks{
         height: 882px;
         width: 390px;
-    }
-    
+    }    
     .mainImgMan{
         height: 274px;
         width: 330px;
@@ -1312,7 +1393,6 @@ font-size: 10px;
         top: 294px;
         border-radius: 50px;
     }
-
     .mainCollection2018{
         position: absolute;
         height: 274px;
@@ -1321,18 +1401,15 @@ font-size: 10px;
         top: 587px;
         border-radius: 50px;
     }
-
     .main{
         margin-top: 12px;
     }
     .mainImgMan>img{
         border-radius: 50px;
     }
-
     .mainClocksAssortmentLouisBlock{
         margin-top: 50px;
     }
-
     .mainClocksAssortmentLouisBlock,
     .mainClocksAssortmentCarlVonZeytenBlock,
     .mainClocksAssortmentJordBlock{
@@ -1345,21 +1422,17 @@ font-size: 10px;
     .mainClocksAssortmentJordPrice{
     position: absolute;
     font-size: 14px;
-
     }
-
     .mainClocksAssortmentLouisTitle,
     .mainClocksAssortmentCarlVonZeytenTitle,
     .mainClocksAssortmentJordTitle{
         position: absolute;
         font-size: 16px;
     }
-
     .mainClocksAssortmentCarlVonZeytenBlock,
     .mainClocksAssortmentJordBlock{
         margin-top: 50px;
     }
-
     .mainClocksAssortmentLouisTitle{
         top: 115px;
         right: 50px;
@@ -1379,32 +1452,26 @@ font-size: 10px;
     .mainClocksAssortmentJordBlock{
         margin-left: 10px;
     }
-
     .mainClocksAssortmentJordTitle{
         right: 79px;
         top: 656px;
     }
-
     .mainClocksAssortmentJordPrice{
         top: 696px;
         right: 96px;
     }
-
     .mainImgSuit>img{
         border-radius: 50px;
     }
-
     .mainCollection2018Title{
         font-size: 20px;
         margin-top: 18px;
         margin-bottom: 10px;
         width: 148px;
     }
-    
     .mainCollection2018Line{
         margin-bottom: 18px;
     }
-    
     .mainCollection2018Description{
         width: 262px;
         height: 132px;
@@ -1412,23 +1479,26 @@ font-size: 10px;
         text-align: center;
         margin-bottom: 18px;
     }
-    
     .mainCollection2018Button{
         width: 200px;
         height: 32px;
         font-size: 10px;
         line-height: 32px;
     }
-
     .newCollectionBlock{
         width: 740px;
     }
-    .newCollectionBlockCarlVonZeyten, .newCollectionBlockJordAr, .newCollectionBlockEmporia, .newCollectionBlockRolex, .newCollectionBlockLouis, .newCollectionBlockUboat, .newCollectionBlockGucci, .newCollectionBlockCollection {
+    .newCollectionBlockCarlVonZeyten, 
+    .newCollectionBlockJordAr, 
+    .newCollectionBlockEmporia, 
+    .newCollectionBlockRolex, 
+    .newCollectionBlockLouis, 
+    .newCollectionBlockUboat, 
+    .newCollectionBlockGucci, 
+    .newCollectionBlockCollection {
         height: 399px;
         width: 162px;
-    
     }
-    
     .newCollectionBlock >div > div > div >img {
         width: 199px;
         height: 244px;
@@ -1439,26 +1509,35 @@ font-size: 10px;
         width: 155px;
         height: 191px;
         margin-top: 30px;
-        margin-left: 7px;
-    
+        margin-left: 7px;    
     }
-
-    .newCollectionBlockCarlVonZeyten, .newCollectionBlockJordAr, .newCollectionBlockEmporia, .newCollectionBlockRolex, .newCollectionBlockLouis, .newCollectionBlockUboat, .newCollectionBlockGucci, .newCollectionBlockCollection {
+    .newCollectionBlockCarlVonZeyten, 
+    .newCollectionBlockJordAr, 
+    .newCollectionBlockEmporia, 
+    .newCollectionBlockRolex, 
+    .newCollectionBlockLouis, 
+    .newCollectionBlockUboat, 
+    .newCollectionBlockGucci, 
+    .newCollectionBlockCollection {
         height: 346px;
         width: 162px;
     }
     .newCollectionBlockGucciImg > img {
         height: 250px !important;
-
     }
-    
     .newCollectionBlock > div >div >div:nth-child(1) {
         height: 248px;
     }
-    .newCollectionBlockCarlVonZeyten, .newCollectionBlockJordAr, .newCollectionBlockEmporia, .newCollectionBlockRolex, .newCollectionBlockLouis, .newCollectionBlockUboat, .newCollectionBlockGucci, .newCollectionBlockCollection {
+    .newCollectionBlockCarlVonZeyten, 
+    .newCollectionBlockJordAr, 
+    .newCollectionBlockEmporia, 
+    .newCollectionBlockRolex, 
+    .newCollectionBlockLouis, 
+    .newCollectionBlockUboat, 
+    .newCollectionBlockGucci, 
+    .newCollectionBlockCollection {
         height: 314px;
     }
-
     .newCollectionBlockCollection>div:nth-child(2) {
         width: 144px;
         height: 34px;
@@ -1466,56 +1545,69 @@ font-size: 10px;
         font-size: 12px;
     }
     .newCollectionBlockLouis, 
-.newCollectionBlockGucci,
-.newCollectionBlockUboat,
-.newCollectionBlockCollection{
-    margin-top: 54px;
-}
-.newCollectionTitle{
-    margin-top: 20px;
+    .newCollectionBlockGucci,
+    .newCollectionBlockUboat,
+    .newCollectionBlockCollection{
+        margin-top: 54px;
+    }
+    .newCollectionTitle{
+        margin-top: 20px;
+    }
+
+    .informationTitle{
+        font-size: 26px;
+    }
+    .informationBlockImg,
+    .informationBlockPart1,
+    .informationBlockPart2,
+    .informationBlockPart3{
+        height: 209px;
+    }
+    .informationBlockPart1 >div:nth-child(1), 
+    .informationBlockPart2 >div:nth-child(1), 
+    .informationBlockPart3 >div:nth-child(1) {
+        margin-top: 0px;
+    }
+    .informationBlockPart1 >div:nth-child(3), 
+    .informationBlockPart2 >div:nth-child(3), 
+    .informationBlockPart3 >div:nth-child(3),
+    .informationBlockPart1 >div:nth-child(4), 
+    .informationBlockPart2 >div:nth-child(4), 
+    .informationBlockPart3 >div:nth-child(4)  {
+        display: none;
+    }
+    .informationBlockPart1 >div:nth-child(2) {
+        width: 283px;
+    }
+    .informationBlockPart2 >div:nth-child(2) {
+        width: 270px;
+    }
+    .informationBlockPart3 >div:nth-child(2) {
+        width: 266px;
+    }
+    .partnersImgLogo >div:nth-child(1), 
+    .partnersImgLogo >div:nth-child(2), 
+    .partnersImgLogo >div:nth-child(3), 
+    .partnersImgLogo >div:nth-child(4) {
+        height: 94px;
+        width: 21%;
+    }
+    .footerContent > div{
+        width: 663px;   
+    }
+    .distributionTitle, .distributionDescription{
+        display: none;
+    }
+    form{
+        position: absolute;
+        left: 351px;
+        bottom: 28px;
+    }
+    .footerAdditional{
+        width: 85%;
+    }
 }
 
-.informationTitle{
-    font-size: 26px;
-}
-.informationBlockImg,
-.informationBlockPart1,
-.informationBlockPart2,
-.informationBlockPart3{
-    height: 209px;
-}
-.informationBlockPart1 >div:nth-child(1), .informationBlockPart2 >div:nth-child(1), .informationBlockPart3 >div:nth-child(1) {
-    margin-top: 0px;
-}
-
-.informationBlockPart1 >div:nth-child(3), 
-.informationBlockPart2 >div:nth-child(3), 
-.informationBlockPart3 >div:nth-child(3),
-.informationBlockPart1 >div:nth-child(4), 
-.informationBlockPart2 >div:nth-child(4), 
-.informationBlockPart3 >div:nth-child(4)  {
-    display: none;
-}
-
-.informationBlockPart1 >div:nth-child(2) {
-    width: 283px;
-}
-
-.informationBlockPart2 >div:nth-child(2) {
-    width: 270px;
-}
-.informationBlockPart3 >div:nth-child(2) {
-    width: 266px;
-}
-.partnersImgLogo >div:nth-child(1), 
-.partnersImgLogo >div:nth-child(2), 
-.partnersImgLogo >div:nth-child(3), 
-.partnersImgLogo >div:nth-child(4) {
-    height: 94px;
-    width: 21%;
-}
-
-}
 
 @media screen and (max-width: 768px) {
     .contactInforation{
@@ -1541,7 +1633,6 @@ font-size: 10px;
         transition: 1s;
         z-index: 2;
     }
-
     .headerMenu>ul>li:nth-child(1),
     .headerMenu>ul>li:nth-child(2),
     .headerMenu>ul>li:nth-child(3) {
@@ -1557,16 +1648,12 @@ font-size: 10px;
         padding: 7px 0px 25px 45px;
         margin-top: -2px;
     }
-
     .headerMenu>ul>li:hover{
         background-color: #1F1F1F;
     }  
-    
     .headerMenu > ul > li {
         display: flex;
-
     }
-
     .headerMenuBurger{
         position: relative;
         display: block;
@@ -1576,7 +1663,6 @@ font-size: 10px;
         right: 60px;
         top: 27px;
     }
-    
     .headerMenuBurger span {
         position: absolute;
         background-color: white;
@@ -1593,7 +1679,6 @@ font-size: 10px;
         width: 40px;
         height: 2px;
         transition: 1s
-        
     }
     .headerMenuBurger::before{
         top:0px;
@@ -1601,7 +1686,6 @@ font-size: 10px;
     .headerMenuBurger::after{
         bottom: 0;
     }
-
     .showLists >ul{
         margin-top:80px
     }
@@ -1610,23 +1694,19 @@ font-size: 10px;
         width: 94px;
         top:165px;
     }
-
     .aboutUsInformation>div:nth-child(1){
         font-size: 24px;
         height: 24px;
         margin-top: 27px;
     }
-
     .aboutUsInformation>div:nth-child(2){
         width: 68px;
         margin-left: 11px;
         margin-top: 6px;
     }
-
     .aboutUsInformation>div:nth-child(3){
         font-size: 14px;
     }
-
     .aboutUsInformation>div:nth-child(3){
         font-size: 14px;
         margin-top: 38px;
@@ -1640,80 +1720,74 @@ font-size: 10px;
         height: 204px;
         width: 292.5px;
     }
-    
     .mainImgMan{
         height: 204px;
         width: 247.5px;
     }
-    
     .mainClocks{
         height: 681px;
     }
-
-    .mainClocksAssortmentLouisBlock, .mainClocksAssortmentCarlVonZeytenBlock, .mainClocksAssortmentJordBlock {
+    .mainClocksAssortmentLouisBlock, 
+    .mainClocksAssortmentCarlVonZeytenBlock, 
+    .mainClocksAssortmentJordBlock {
         width: 171px;
         height: 175px;
         margin-top: 10px;
-
     }
-    
     .mainImgSuit{
         height: 204px;
         width: 247.5px;
         top: 224px;
     }
-
     .mainCollection2018{
         height: 204px;
         width: 247.5px;
         top: 448px;
     }
-    .mainClocksAssortmentLouisBlock >img, .mainClocksAssortmentCarlVonZeytenBlock >img, .mainClocksAssortmentJordBlock >img {
+    .mainClocksAssortmentLouisBlock >img, 
+    .mainClocksAssortmentCarlVonZeytenBlock >img, 
+    .mainClocksAssortmentJordBlock >img {
         width: 113px;
         height: 119px;
         margin-top: 26px;
         margin-left: 28px;
-
     }
-
     .mainClocksAssortmentLouisPrice,
     .mainClocksAssortmentCarlVonZeytenPrice,
     .mainClocksAssortmentJordPrice{
         display: none;
-
     }
-
     .mainClocksAssortmentLouisTitle,
     .mainClocksAssortmentCarlVonZeytenTitle,
     .mainClocksAssortmentJordTitle{
         display: none;
     }
-    .mainClocksAssortmentLouisBlock >img, .mainClocksAssortmentCarlVonZeytenBlock >img, .mainClocksAssortmentJordBlock >img {
+    .mainClocksAssortmentLouisBlock >img, 
+    .mainClocksAssortmentCarlVonZeytenBlock >img, 
+    .mainClocksAssortmentJordBlock >img {
         width: 131px;
         height: 131px;
         margin-top: 26px;
         margin-left: 51px;
     }
-    .mainClocksAssortmentLouisBlock, .mainClocksAssortmentCarlVonZeytenBlock, .mainClocksAssortmentJordBlock {
+    .mainClocksAssortmentLouisBlock, 
+    .mainClocksAssortmentCarlVonZeytenBlock, 
+    .mainClocksAssortmentJordBlock {
         width: 233px;
         height: 175px;
         margin-top: 10px;
         background-color: transparent;
     }
-
-
     .mainCollection2018Title{
         font-size: 16px;
         margin-top: 8px;
         margin-bottom: 3px;
         width: 120px;
-    }
-    
+    }   
     .mainCollection2018Line{
         width: 72px;
         margin-bottom: 18px;
-    }
-    
+    } 
     .mainCollection2018Description{
         width: 212px;
         height: 101px;
@@ -1721,105 +1795,150 @@ font-size: 10px;
         text-align: center;
         margin-bottom: 10px;
     }
-    
     .mainCollection2018Button{
         width: 175px;
         height: 28px;
         font-size: 8px;
         line-height: 28px;
     }
-
     .newCollectionBlock {
         width: 550px;
     }
-
-    .newCollectionBlockCarlVonZeyten, .newCollectionBlockJordAr, .newCollectionBlockEmporia, .newCollectionBlockRolex, .newCollectionBlockLouis, .newCollectionBlockUboat, .newCollectionBlockGucci, .newCollectionBlockCollection {
+    .newCollectionBlockCarlVonZeyten, 
+    .newCollectionBlockJordAr, 
+    .newCollectionBlockEmporia, 
+    .newCollectionBlockRolex, 
+    .newCollectionBlockLouis, 
+    .newCollectionBlockUboat, 
+    .newCollectionBlockGucci, 
+    .newCollectionBlockCollection {
         height: 346px;
         width: 212px;
         margin: auto;
     }
-
     .newCollectionBlock >div > div > div >img {
         width: 155px;
         height: 191px;
         margin-top: 31px;
         margin-left: 27px;
     }
-    
     .informationTitle{
         font-size: 24px;
         width: 456px;
     }
-
     .newCollectionBlock {
         padding-bottom: 75px;
     }
-
     .informationBlockImg,
     .informationBlockPart1,
     .informationBlockPart2,
     .informationBlockPart3{
         height: 242px;
-    width: 100%;
+        width: 100%;
     }
-
     .informationBlockPart1 >div:nth-child(3), 
-.informationBlockPart2 >div:nth-child(3), 
-.informationBlockPart3 >div:nth-child(3),
-.informationBlockPart1 >div:nth-child(4), 
-.informationBlockPart2 >div:nth-child(4), 
-.informationBlockPart3 >div:nth-child(4)  {
-    display: block;
-}
-    
-.informationBlockPart1 >div:nth-child(2),
-.informationBlockPart2 >div:nth-child(2),
-.informationBlockPart3 >div:nth-child(2) {
-    width: 485px;
-    text-align: justify;
-    margin-left: 30px;
-}
-.informationBlockPart1 >div:nth-child(1), .informationBlockPart2 >div:nth-child(1), .informationBlockPart3 >div:nth-child(1) {
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
-.informationBlockPart1 >div:nth-child(3), 
-.informationBlockPart2 >div:nth-child(3), 
-.informationBlockPart3 >div:nth-child(3){
-    margin-left: 30px;
-}
-
-.informationBlockPart1 >div:nth-child(4){
-    top: 195px;
-}
-
-.informationBlockPart2 >div:nth-child(4),
-.informationBlockPart3 >div:nth-child(4){
-    top: 176px;
-}
-
-.partnersImgLogo >div:nth-child(1), 
-.partnersImgLogo >div:nth-child(2), 
-.partnersImgLogo >div:nth-child(3), 
-.partnersImgLogo >div:nth-child(4) {
-    height: 100px;
-    width: 30%;
-}
-
-.partnersImgLogo >div:nth-child(1),
-.partnersImgLogo >div:nth-child(3){
-    margin-left: 86px;
-}
-
-
-    
+    .informationBlockPart2 >div:nth-child(3), 
+    .informationBlockPart3 >div:nth-child(3),
+    .informationBlockPart1 >div:nth-child(4), 
+    .informationBlockPart2 >div:nth-child(4), 
+    .informationBlockPart3 >div:nth-child(4)  {
+        display: block;
+    }
+    .informationBlockPart1 >div:nth-child(2),
+    .informationBlockPart2 >div:nth-child(2),
+    .informationBlockPart3 >div:nth-child(2) {
+        width: 485px;
+        text-align: justify;
+        margin-left: 30px;
+    }
+    .informationBlockPart1 >div:nth-child(1), 
+    .informationBlockPart2 >div:nth-child(1), 
+    .informationBlockPart3 >div:nth-child(1) {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .informationBlockPart1 >div:nth-child(3), 
+    .informationBlockPart2 >div:nth-child(3), 
+    .informationBlockPart3 >div:nth-child(3){
+        margin-left: 30px;
+    }
+    .informationBlockPart1 >div:nth-child(4){
+        top: 195px;
+    }
+    .informationBlockPart2 >div:nth-child(4),
+    .informationBlockPart3 >div:nth-child(4){
+        top: 176px;
+    }
+    .partnersImgLogo >div:nth-child(1), 
+    .partnersImgLogo >div:nth-child(2), 
+    .partnersImgLogo >div:nth-child(3), 
+    .partnersImgLogo >div:nth-child(4) {
+        height: 100px;
+        width: 30%;
+    }
+    .partnersImgLogo >div:nth-child(1),
+    .partnersImgLogo >div:nth-child(3){
+        margin-left: 86px;
+    }
+    .footerContent > div{
+        width: 505px;   
+    }
+    .footerContent > div > div > div:nth-child(1) {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .footerContent > div > div:nth-child(1) > div:nth-child(2) {
+        font-size: 12px;
+        height: 144px;
+    }
+    .footerContent {
+        padding-top: 30px;
+    }
+    .aboutCompanyDescription{
+        width: 100% !important;
+    }
+    .categories{
+        padding-left: 15px;
+    }
+    .categoriesStuff > div  {
+        height: 38px;
+        line-height: 38px;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .categoriesStuff > div:nth-child(4) {
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    .categoriesStuff > div:nth-child(3), 
+    .categoriesStuff > div:nth-child(5) {
+        margin-right: 6px;
+        margin-top: 0px;
+    }
+    .categoriesStuff > div:nth-child(5){
+        margin-top: 20px;
+    }
+    form {
+        left: 15px;
+        top: 30px;
+    }
+    .form-control {
+        width: 147px;
+        height: 32px;
+    }
+    .btn {
+        width: 137px;
+        height: 34px;
+        left: 145px;
+        top: 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
     
 
 @media screen and (max-width: 576px) {
     .newCollectionTitle{
-
         width: 100%;
         padding-top: 30px;
         margin-bottom: 40px;
@@ -1831,7 +1950,6 @@ font-size: 10px;
         justify-content:flex-start;
         text-align: left;
     }
-
     .headerMenuBurger{
         position: absolute;
         top: 119px;
@@ -1844,42 +1962,34 @@ font-size: 10px;
         position: absolute;
         width: 100%;
     }
-
     .headerMenu>ul>li:nth-child(1),
     .headerMenu>ul>li:nth-child(2),
     .headerMenu>ul>li:nth-child(3) {
         width: 100%;
         padding-left: 20px;
-
     }
     .headerLogo{
         padding-left: 20px;   
     }
-
     .aboutUsInformation{
         display: none;
     }
-
     .mainClocks{
         width: 100%;
     }
-    
     .mainImgMan{
         width: 100%;
     }
-
     .mainClocks{
         height: 55vw;
         width: 100%;
         margin: auto;
     }
-    
     .mainImgMan{
         height: 55vw;
         width: 100%;
         margin: auto;
     }
-
     .mainClocksAssortmentLouis,
     .mainClocksAssortmentCarlVonZeyten,
     .mainClocksAssortmentJord{
@@ -1892,9 +2002,6 @@ font-size: 10px;
         width: 100%;
         margin-top: 20px;
     }
-
-
-
     .mainClocksAssortmentLouis,
     .mainClocksAssortmentCarlVonZeyten,
     .mainClocksAssortmentJord{
@@ -1902,7 +2009,6 @@ font-size: 10px;
         margin: 0;
         width: 33%;
     }
-
     .mainClocksAssortmentLouisBlock,
     .mainClocksAssortmentJordBlock,
     .mainClocksAssortmentCarlVonZeytenBlock{
@@ -1911,9 +2017,9 @@ font-size: 10px;
         margin: 0;
         padding: 0;
     }
-
-
-    .mainClocksAssortmentLouisBlock >img, .mainClocksAssortmentCarlVonZeytenBlock >img, .mainClocksAssortmentJordBlock >img {
+    .mainClocksAssortmentLouisBlock >img, 
+    .mainClocksAssortmentCarlVonZeytenBlock >img, 
+    .mainClocksAssortmentJordBlock >img {
         margin: 0;
         padding: 0;
         width: 33vw;
@@ -1921,20 +2027,16 @@ font-size: 10px;
         padding-left: 30px;
         margin-top: 10px;
     }
-
-
     .mainCollection2018Title{
         font-size: 18px;
         margin-top: 10px;
         margin-bottom: 5px;
         width: 226px;
     }
-    
     .mainCollection2018Line{
         width: 80px;
         margin-bottom: 10px;
     }
-    
     .mainCollection2018Description{
         width: 90%;
         height: 108px;
@@ -1942,95 +2044,94 @@ font-size: 10px;
         text-align: center;
         margin-bottom: 10px;
     }
-    
     .mainCollection2018Button{
         width: 166px;
         height: 24px;
         font-size: 8px;
         line-height: 24px;
     }
-
     .newCollectionBlock{
         display: none;
     }
-
     .carousel{
         display: block;
         margin-bottom: 75px;
     }
-
     .carousel-inner > div > img {
         width: 200px !important;
         height: 250px;
         margin: auto;
         margin-bottom: 75px;
     }
-
     .newCollectionTitle{
         margin-top: 0px;
-    font-size: 26px;
-}
+        font-size: 26px;
+    }
 
-.informationTitle{
-    width: 100%;
-}
-
-.informationBlockImg{
+    .informationTitle{
+        width: 100%;
+    }
+    .informationBlockImg{
     height: 242px;
-width: 95%;
-margin: auto;
-}
-
-.informationBlockPart1 >div:nth-child(4),
-.informationBlockPart2 >div:nth-child(4),
-.informationBlockPart3 >div:nth-child(4){
-    display: none;
-}
-
-.informationBlockPart1 >div:nth-child(2), .informationBlockPart2 >div:nth-child(2), .informationBlockPart3 >div:nth-child(2) {
-
-    margin: 0;
     width: 95%;
-    padding-left: 32px;
-    padding-right: 0px;
-    margin-bottom: 15px;
-}
-
-.informationBlockPart1 >div:nth-child(3), 
-.informationBlockPart2 >div:nth-child(3), 
-.informationBlockPart3 >div:nth-child(3) {
-    margin-left: 30px;
-    width: 100px;
-    height: 34px;
-    line-height: 34px;
-    font-size: 12px;
-}
-
-.partnersImgLogo >div:nth-child(1), 
-.partnersImgLogo >div:nth-child(2), 
-.partnersImgLogo >div:nth-child(3), 
-.partnersImgLogo >div:nth-child(4) {
-    height: 100px;
-    width: 30%;
-}
-
-.partnersImgLogo >div:nth-child(1),
-.partnersImgLogo >div:nth-child(2),
-.partnersImgLogo >div:nth-child(3),
-.partnersImgLogo >div:nth-child(4){
-    width: 46%;
-    padding-top: 15px;
     margin: auto;
-}
-
-.partnersImgLogo >div:nth-child(3),
-.partnersImgLogo >div:nth-child(4){
-    margin-top: 15px;
-}
-
-
-    
-
-    
+    }
+    .informationBlockPart1 >div:nth-child(4),
+    .informationBlockPart2 >div:nth-child(4),
+    .informationBlockPart3 >div:nth-child(4){
+        display: none;
+    }
+    .informationBlockPart1 >div:nth-child(2), 
+    .informationBlockPart2 >div:nth-child(2), 
+    .informationBlockPart3 >div:nth-child(2) {
+        margin: 0;
+        width: 95%;
+        padding-left: 32px;
+        padding-right: 0px;
+        margin-bottom: 15px;
+    }
+    .informationBlockPart1 >div:nth-child(3), 
+    .informationBlockPart2 >div:nth-child(3), 
+    .informationBlockPart3 >div:nth-child(3) {
+        margin-left: 30px;
+        width: 100px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 12px;
+    }
+    .partnersImgLogo >div:nth-child(1), 
+    .partnersImgLogo >div:nth-child(2), 
+    .partnersImgLogo >div:nth-child(3), 
+    .partnersImgLogo >div:nth-child(4) {
+        height: 100px;
+        width: 30%;
+    }
+    .partnersImgLogo >div:nth-child(1),
+    .partnersImgLogo >div:nth-child(2),
+    .partnersImgLogo >div:nth-child(3),
+    .partnersImgLogo >div:nth-child(4){
+        width: 46%;
+        padding-top: 15px;
+        margin: auto;
+    }
+    .partnersImgLogo >div:nth-child(3),
+    .partnersImgLogo >div:nth-child(4){
+        margin-top: 15px;
+    }
+    .footerContent > div {
+        width: 360px;
+    }
+    .footerContent > div > div:nth-child(1) > div:nth-child(2) {
+        font-size: 10px;
+        height: 136px;
+    }
+    .categoriesStuff > div:nth-child(4) {
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    form{
+        width: 100%;
+        top: 10px;
+    }
 }
 
