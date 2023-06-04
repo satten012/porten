@@ -312,8 +312,8 @@ background-color: green;
 .informationBlockPart3{
     height: 437px;
     width: 48.48%;
-    background-color: aqua;
     margin-bottom: 35px;
+    position: relative;
 }
 
 .secondwiutclass{
@@ -327,17 +327,19 @@ background-color: green;
 
 .partnersTitle{
     font-weight: 700;
+    width: 320px;
     font-size: 36px;
-    height: 71.73px;
     text-transform: uppercase;
-    color:var(--colorFirst);
-    font-family: var(--fontsThird);
-    margin-bottom: 22.6px;
+    color: var(--colorFirst);
+    margin: auto;
+    padding-top: 89.67px;
+    margin-bottom: 32.6px;
 }
 .partnersLine{
     margin-bottom: 66px;
     width: 120px;
     height: 1px;
+    margin: auto;
     background-color: var(--colorFirst);
 }
 
@@ -541,6 +543,136 @@ margin-bottom: 64px;
     font-size: 16px;
 }
 
+.informationBlockPart1 >div:nth-child(1),
+.informationBlockPart2 >div:nth-child(1),
+.informationBlockPart3 >div:nth-child(1){
+    margin-left: 145px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:var(--colorFirst);
+    margin-top: 53px;
+    margin-bottom: 14px;
+    font-family: var(--fontsMain);
+}
+
+.informationBlockPart1 >div:nth-child(2),
+.informationBlockPart2 >div:nth-child(2),
+.informationBlockPart3 >div:nth-child(2){
+    color:rebeccapurple;
+    margin-left: 145px;
+    font-weight: 400;
+    font-size: 14px;
+    color:var(--colorFirst);
+    margin-bottom: 38px;
+}
+
+.informationBlockPart1 >div:nth-child(2){
+    width: 670px;
+}
+
+.informationBlockPart2 >div:nth-child(2){
+    width: 650px;
+}
+
+.informationBlockPart3 >div:nth-child(2){
+    width: 664px;
+}
+
+.informationBlockPart1 >div:nth-child(3),
+.informationBlockPart2 >div:nth-child(3),
+.informationBlockPart3 >div:nth-child(3){
+    width: 129px;
+    height: 47px;
+    border: 1px solid var(--colorFirst);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    color:var(--colorFirst);
+    margin-left: 145px;
+    font-family: var(--fontsMain);
+    text-align: center;
+    line-height: 47px;
+}
+
+.informationBlockPart1 >div:nth-child(4),
+.informationBlockPart2 >div:nth-child(4),
+.informationBlockPart3 >div:nth-child(4){
+    position: absolute;
+    font-size: 18px;
+    font-family: var(--fontsMain);
+    right: 157px;
+    text-transform: uppercase;
+    color:var(--colorFirst)
+
+}
+
+.informationBlockPart1 >div:nth-child(4){
+    top: 239px;
+}
+
+.informationBlockPart2 >div:nth-child(4){
+    top: 234px;
+}
+
+.informationBlockPart3 >div:nth-child(4){
+    top: 240px;
+}
+
+.partners{
+    position: relative;
+    top: -1px;
+}
+
+.partnersImgLogo{
+    margin: auto;
+    margin-top: 66px;
+    width: 1385px;
+}
+
+.partnersImgLogo>div:nth-child(1){
+    width: 369px;
+height: 152.44px;
+margin-top: 13px;
+}
+
+.partnersImgLogo>div:nth-child(2){
+    width: 279px;
+    height: 185px;
+}
+
+.partnersImgLogo>div:nth-child(3){
+    width: 271px;
+    height: 170px;
+}
+
+.partnersImgLogo>div:nth-child(4){
+    width: 376px;
+    height: 153px;
+    margin-top: 3px;
+}
+
+.partnersImgLogo > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.partnersImgLogo>div:nth-child(1),
+.partnersImgLogo>div:nth-child(2),
+.partnersImgLogo>div:nth-child(3){
+    margin-right: 30px;
+}
+
+
+.footerContent{
+    height: 450px;
+    width: 100%;
+    background-position: center;
+
+    background-image:url(../img/background.png)
+}
 
 
 @media screen and (min-width: 1920px) {
@@ -718,10 +850,51 @@ margin-bottom: 24px;
     font-size: 34px;
 }
 
-.informationBlockImg{
+.informationBlockImg,
+.informationBlockPart1,
+.informationBlockPart2,
+.informationBlockPart3{
     height: 385px;
 }
 
+
+.informationBlockPart1 >div:nth-child(1), .informationBlockPart2 >div:nth-child(1), .informationBlockPart3 >div:nth-child(1) {
+    margin-top: 10px;
+}
+
+.informationBlockPart1 >div:nth-child(2) {
+    width: 443px;
+}
+
+.informationBlockPart1 >div:nth-child(4), 
+.informationBlockPart2 >div:nth-child(4), 
+.informationBlockPart3 >div:nth-child(4) {
+    right: 46px;
+}
+
+.informationBlockPart2 >div:nth-child(2) {
+    width: 445px;
+}
+
+.informationBlockPart3 >div:nth-child(2) {
+    width: 422px;
+}
+
+.informationBlockPart3 >div:nth-child(4) {
+    top: 292px;
+}
+
+.partnersImgLogo {
+    width: 100%;
+}
+
+.partnersImgLogo >div:nth-child(1),
+.partnersImgLogo >div:nth-child(2),
+.partnersImgLogo >div:nth-child(3),
+.partnersImgLogo >div:nth-child(4) {
+    width: 23%;
+    height: 170px;
+}
 
 }
 
@@ -839,13 +1012,40 @@ margin-bottom: 24px;
     font-size: 14px;
 }
     
-.informationBlockImg{
-    height: 330px;
+.informationBlockImg,
+.informationBlockPart1,
+.informationBlockPart2,
+.informationBlockPart3{
+    height: 340px;
 }
 
-    
+.informationBlockPart1 >div:nth-child(1), 
+.informationBlockPart2 >div:nth-child(1), 
+.informationBlockPart3 >div:nth-child(1),
+.informationBlockPart1 >div:nth-child(3), 
+.informationBlockPart2 >div:nth-child(3), 
+.informationBlockPart3 >div:nth-child(3),
+.informationBlockPart1 >div:nth-child(2), 
+.informationBlockPart2 >div:nth-child(2), 
+.informationBlockPart3 >div:nth-child(2) {
+    margin-left: 60px;
+}
+
+.partnersImgLogo{
+    width: 96%;
+}
+.partnersImgLogo >div:nth-child(1), 
+.partnersImgLogo >div:nth-child(2), 
+.partnersImgLogo >div:nth-child(3), 
+.partnersImgLogo >div:nth-child(4) {
+    width: 22%;
+    height: 170px;
+}
+
+   
 }
 @media screen and (max-width: 1200px) {
+
     .informationTitle{
         font-size: 30px;
     }
@@ -998,6 +1198,53 @@ font-size: 10px;
     margin-left: 7px;
 }
 
+.informationBlockImg,
+.informationBlockPart1,
+.informationBlockPart2,
+.informationBlockPart3{
+    height: 275px;
+}
+.informationBlockPart1 >div:nth-child(2) {
+    width: 390px;
+    font-size: 12px;
+}
+
+.informationBlockPart1 >div:nth-child(3), .informationBlockPart2 >div:nth-child(3), .informationBlockPart3 >div:nth-child(3) {
+    width: 114px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+
+}
+
+.informationBlockPart1 >div:nth-child(4), .informationBlockPart2 >div:nth-child(4), .informationBlockPart3 >div:nth-child(4) {
+    font-size: 16px;
+}
+
+.informationBlockPart1 >div:nth-child(4) {
+    top: 214px;
+}
+
+.informationBlockPart2 >div:nth-child(2) {
+    width: 369px;
+    font-size: 12px;
+}
+
+.informationBlockPart3 >div:nth-child(2) {
+    width: 358px;
+    font-size: 12px;
+}
+
+.informationBlockPart2 >div:nth-child(4){
+    top: 214px;
+}
+
+.partnersImgLogo >div:nth-child(1), 
+.partnersImgLogo >div:nth-child(2), 
+.partnersImgLogo >div:nth-child(3), 
+.partnersImgLogo >div:nth-child(4) {
+    height: 130px;
+}
 
 
 }
@@ -1230,6 +1477,42 @@ font-size: 10px;
 
 .informationTitle{
     font-size: 26px;
+}
+.informationBlockImg,
+.informationBlockPart1,
+.informationBlockPart2,
+.informationBlockPart3{
+    height: 209px;
+}
+.informationBlockPart1 >div:nth-child(1), .informationBlockPart2 >div:nth-child(1), .informationBlockPart3 >div:nth-child(1) {
+    margin-top: 0px;
+}
+
+.informationBlockPart1 >div:nth-child(3), 
+.informationBlockPart2 >div:nth-child(3), 
+.informationBlockPart3 >div:nth-child(3),
+.informationBlockPart1 >div:nth-child(4), 
+.informationBlockPart2 >div:nth-child(4), 
+.informationBlockPart3 >div:nth-child(4)  {
+    display: none;
+}
+
+.informationBlockPart1 >div:nth-child(2) {
+    width: 283px;
+}
+
+.informationBlockPart2 >div:nth-child(2) {
+    width: 270px;
+}
+.informationBlockPart3 >div:nth-child(2) {
+    width: 266px;
+}
+.partnersImgLogo >div:nth-child(1), 
+.partnersImgLogo >div:nth-child(2), 
+.partnersImgLogo >div:nth-child(3), 
+.partnersImgLogo >div:nth-child(4) {
+    height: 94px;
+    width: 21%;
 }
 
 }
@@ -1472,6 +1755,63 @@ font-size: 10px;
         padding-bottom: 75px;
     }
 
+    .informationBlockImg,
+    .informationBlockPart1,
+    .informationBlockPart2,
+    .informationBlockPart3{
+        height: 242px;
+    width: 100%;
+    }
+
+    .informationBlockPart1 >div:nth-child(3), 
+.informationBlockPart2 >div:nth-child(3), 
+.informationBlockPart3 >div:nth-child(3),
+.informationBlockPart1 >div:nth-child(4), 
+.informationBlockPart2 >div:nth-child(4), 
+.informationBlockPart3 >div:nth-child(4)  {
+    display: block;
+}
+    
+.informationBlockPart1 >div:nth-child(2),
+.informationBlockPart2 >div:nth-child(2),
+.informationBlockPart3 >div:nth-child(2) {
+    width: 485px;
+    text-align: justify;
+    margin-left: 30px;
+}
+.informationBlockPart1 >div:nth-child(1), .informationBlockPart2 >div:nth-child(1), .informationBlockPart3 >div:nth-child(1) {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.informationBlockPart1 >div:nth-child(3), 
+.informationBlockPart2 >div:nth-child(3), 
+.informationBlockPart3 >div:nth-child(3){
+    margin-left: 30px;
+}
+
+.informationBlockPart1 >div:nth-child(4){
+    top: 195px;
+}
+
+.informationBlockPart2 >div:nth-child(4),
+.informationBlockPart3 >div:nth-child(4){
+    top: 176px;
+}
+
+.partnersImgLogo >div:nth-child(1), 
+.partnersImgLogo >div:nth-child(2), 
+.partnersImgLogo >div:nth-child(3), 
+.partnersImgLogo >div:nth-child(4) {
+    height: 100px;
+    width: 30%;
+}
+
+.partnersImgLogo >div:nth-child(1),
+.partnersImgLogo >div:nth-child(3){
+    margin-left: 86px;
+}
+
 
     
 }
@@ -1634,6 +1974,60 @@ font-size: 10px;
 .informationTitle{
     width: 100%;
 }
+
+.informationBlockImg{
+    height: 242px;
+width: 95%;
+margin: auto;
+}
+
+.informationBlockPart1 >div:nth-child(4),
+.informationBlockPart2 >div:nth-child(4),
+.informationBlockPart3 >div:nth-child(4){
+    display: none;
+}
+
+.informationBlockPart1 >div:nth-child(2), .informationBlockPart2 >div:nth-child(2), .informationBlockPart3 >div:nth-child(2) {
+
+    margin: 0;
+    width: 95%;
+    padding-left: 32px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+}
+
+.informationBlockPart1 >div:nth-child(3), 
+.informationBlockPart2 >div:nth-child(3), 
+.informationBlockPart3 >div:nth-child(3) {
+    margin-left: 30px;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+}
+
+.partnersImgLogo >div:nth-child(1), 
+.partnersImgLogo >div:nth-child(2), 
+.partnersImgLogo >div:nth-child(3), 
+.partnersImgLogo >div:nth-child(4) {
+    height: 100px;
+    width: 30%;
+}
+
+.partnersImgLogo >div:nth-child(1),
+.partnersImgLogo >div:nth-child(2),
+.partnersImgLogo >div:nth-child(3),
+.partnersImgLogo >div:nth-child(4){
+    width: 46%;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.partnersImgLogo >div:nth-child(3),
+.partnersImgLogo >div:nth-child(4){
+    margin-top: 15px;
+}
+
 
     
 
