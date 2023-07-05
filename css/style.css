@@ -12,7 +12,9 @@
     min-height: 100vh;
     background-color: rgb(0, 0, 0);
 }
-
+.wrapper{
+    overflow-y:hidden
+}
 .contact{
    height: 44px; 
    font-family: var(--fontsMain);
@@ -774,6 +776,27 @@
     margin-bottom: 26px;
 }
 
+.mainCollection2018Button,
+.newCollectionBlock > div > div > div:nth-child(2),
+.informationBlockPart1 >div:nth-child(3), 
+.informationBlockPart2 >div:nth-child(3), 
+.informationBlockPart3 >div:nth-child(3),
+.categoriesStuff > div {
+    transition: 1s;
+}
+
+.mainCollection2018Button:hover,
+.newCollectionBlock > div > div > div:nth-child(2):hover,
+.informationBlockPart1 >div:nth-child(3):hover, 
+.informationBlockPart2 >div:nth-child(3):hover, 
+.informationBlockPart3 >div:nth-child(3):hover,
+.categoriesStuff > div:hover{
+    color:var(--colorFirst);
+    background-color: #1F1F1F;
+    cursor: pointer;
+}
+
+
 
 @media screen and (min-width: 1920px) {
     .contactInforation{
@@ -966,11 +989,16 @@
     .partnersImgLogo >div:nth-child(2),
     .partnersImgLogo >div:nth-child(3),
     .partnersImgLogo >div:nth-child(4) {
-        width: 23%;
-        height: 170px;
+        width: 15%;
+        height: 107px;
     }
     .footerAdditional{
         width: 88%;
+    }
+    .partnersImgLogo{
+        display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
 
@@ -1097,8 +1125,8 @@
     .partnersImgLogo >div:nth-child(2), 
     .partnersImgLogo >div:nth-child(3), 
     .partnersImgLogo >div:nth-child(4) {
-        width: 22%;
-        height: 170px;
+        width: 18%;
+        height: 114px;
     }
     .distributionDescription{
         width: 360px;
@@ -1297,7 +1325,7 @@
     .partnersImgLogo >div:nth-child(2), 
     .partnersImgLogo >div:nth-child(3), 
     .partnersImgLogo >div:nth-child(4) {
-        height: 130px;
+        height: 95px;
     }
     .footerContent > div{
         width:  960px;
@@ -1328,6 +1356,12 @@
     }
     .footerAdditional{
         width: 95%;
+    }
+    .partnersImgLogo {
+        padding-bottom: 52px;
+    }
+    .footer{
+        margin-top: -1px;
     }
 }
 
@@ -1605,6 +1639,12 @@
     }
     .footerAdditional{
         width: 85%;
+    }
+    .newCollectionBlock > div > div > div:nth-child(2){
+        margin-top: 10px;
+    }
+    .footerContent{
+        margin-top: -1px;
     }
 }
 
@@ -1934,6 +1974,13 @@
         font-size: 14px;
         line-height: 24px;
     }
+    .partnersTitle{
+        padding-top: 0px;
+    }
+    .partnersImgLogo >div:nth-child(1), 
+    .partnersImgLogo >div:nth-child(3) {
+        margin-left: 0px;
+    } 
 }
     
 
